@@ -17,7 +17,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/main.min.css" />
     <title>Студия</title>
   </head>
@@ -398,33 +397,33 @@
         </div>
 
         <!-- JOIN -->
-        <div class="join">
-          <h2 class="join-title">присоединяйтесь</h2>
-          <ul class="join-list list">
-            <li class="join-item">
-              <a class="join-link" href="">
-                <svg class="join-link-icon" width="20" height="20">
+        <div class="join join__container">
+          <h2 class="join__title">присоединяйтесь</h2>
+          <ul class="join__list list">
+            <li class="join__item">
+              <a class="join__link" href="">
+                <svg class="join__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a class="join-link" href="">
-                <svg class="join-link-icon" width="20" height="20">
+            <li class="join__item">
+              <a class="join__link" href="">
+                <svg class="join__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a class="join-link" href="">
-                <svg class="join-link-icon" width="20" height="20">
+            <li class="join__item">
+              <a class="join__link" href="">
+                <svg class="join__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a class="join-link" href="">
-                <svg class="join-link-icon" width="20" height="20">
+            <li class="join__item">
+              <a class="join__link" href="">
+                <svg class="join__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -432,15 +431,15 @@
           </ul>
         </div>
 
-        <form class="form-footer">
-          <h2 class="join-title">Подпишитесь на рассылку</h2>
-          <div class="form-container">
-            <div class="input-container">
+        <form class="subscribe subscribe__form">
+          <h2 class="subscribe__title join__title">Подпишитесь на рассылку</h2>
+          <div class="subscribe__container">
+            <div class="subscribe__input-container">
               <input type="email" name="user-email" placeholder="E-mail" />
             </div>
-            <button class="form-footer-btn" type="submit">
+            <button class="form-btn" type="submit">
               Подписаться
-              <svg class="send-icon" width="24" height="24">
+              <svg class="form-btn__icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -525,7 +524,9 @@
               ></label
             >
           </div>
-          <button class="form-modal-btn" type="submit">Отправить</button>
+          <button class="form-btn modal-form-btn" type="submit">
+            Отправить
+          </button>
         </form>
       </div>
     </div>
